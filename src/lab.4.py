@@ -56,7 +56,8 @@ class Parfum:
         return f"Парфуми: {self.__manufacturer}, {self.__volume} мл, {self.__price} грн, {self.__order} шт"
 
     def __repr__(self):
-        return f"Parfum(volume={self.__volume}, price={self.__price}, manufacturer='{self.__manufacturer}, order={self.__order}')"
+        return (f"Parfum(volume={self.__volume}, price={self.__price},"
+                f" manufacturer='{self.__manufacturer}, order={self.__order}')")
 
 
 
