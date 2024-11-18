@@ -62,20 +62,20 @@ class Parfum:
 
 
 def main():
-    parfum1 = Parfum(50, 1200.0, "Chanel")
-    parfum2 = Parfum(30, 800.0, "Dior")
-    parfum3 = Parfum(100, 2500.0, "Gucci")
+    chanel = Parfum(50, 1200.0, "Chanel")
+    dior = Parfum(30, 800.0, "Dior")
+    gucci = Parfum(100, 2500.0, "Gucci")
 
-    print(parfum1)
-    print(parfum2)
-    print(parfum3)
+    print(chanel)
+    print(dior)
+    print(gucci)
 
-    parfum1.setVolume(60)
-    parfum1.setPrice(1100.0)
+    chanel.setVolume(60)
+    chanel.setPrice(1100.0)
 
-    print(f"Оновлені дані: {parfum1}")
+    print(f"Оновлені дані: {chanel}")
 
-    parfum_array = [parfum1, parfum2, parfum3]
+    parfum_array = [chanel, dior, gucci]
 
     min_parfum = parfum_array[0]
     for parfum in parfum_array:
